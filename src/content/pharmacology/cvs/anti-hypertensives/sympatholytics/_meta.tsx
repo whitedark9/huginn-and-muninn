@@ -3,5 +3,4 @@ export default {
   "adrenergic-neuron-blockers": "Adrenergic Neuron Blockers",
   "beta-adrenergic-blockers": "β-Adrenergic Blockers",
   "alpha-adrenergic-blockers": "α-Adrenergic Blockers",
-  "direct-vasodilators": "Direct Vasodilators",
 };
