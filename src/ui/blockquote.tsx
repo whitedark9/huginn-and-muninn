@@ -42,12 +42,13 @@ const getBlockquoteStatus = (children: React.ReactNode): CalloutType => {
             .trim();
 
           // Error callout must end with !!!
-          if (textContent.endsWith("!!!")) return "error";
+          if (textContent.endsWith("!!")) return "error";
           // Warning callout must end with !
           if (textContent.endsWith("!")) return "warning";
           // Info callout must end with . or ။
           if (textContent.endsWith(".") || textContent.endsWith("။"))
             return "info";
+          if (textContent.endsWith(")")) return "important";
         }
 
         // Recursively check nested children
