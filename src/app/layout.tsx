@@ -22,7 +22,7 @@ export default async function RootLayout({
           <Layout
             pageMap={await getPageMap()} // require
             navbar={<Navbar />}
-            sidebar={{ autoCollapse: true, defaultMenuCollapseLevel: 2 }}
+            sidebar={{ autoCollapse: true, defaultMenuCollapseLevel: 1 }}
             navigation={{ prev: true, next: true }}
             search={<SearchWithCallback />}
             docsRepositoryBase={undefined}
