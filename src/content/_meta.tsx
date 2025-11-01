@@ -22,5 +22,7 @@ export default {
       timestamp: false,
     },
   },
+  paediatrics: "Paediatrics",
+  medicine: "Medicine",
   pharmacology: "Pharmacology",
 };
